@@ -14,7 +14,7 @@ datasource db {
 }
 
 model User {
-  id      Int    @id
+  id      String @id
   nama    String
   email   String
   telepon String
